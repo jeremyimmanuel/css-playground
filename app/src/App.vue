@@ -21,6 +21,8 @@
     />
     <card-three />
     <card-four />
+
+    <card-five />
   </div>
 </template>
 
@@ -29,6 +31,7 @@ import CardOne from './components/CardOne';
 import CardTwo from './components/CardTwo';
 import CardThree from './components/CardThree';
 import CardFour from './components/CardFour';
+import CardFive from './components/CardFive';
 
 export default {
   name: 'App',
@@ -36,7 +39,8 @@ export default {
     CardOne,
     CardTwo,
     CardThree,
-    CardFour
+    CardFour,
+    CardFive
   }
 }
 </script>

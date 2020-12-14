@@ -14,7 +14,7 @@
                     v-show="showContent"
                     class="content"
                 >
-                    {{ lorem }}
+                    {{ batman }}
                 </p>
             </transition>
         </div>
@@ -28,7 +28,8 @@ export default {
     data () {
         return {
             showContent: false,
-            lorem: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut deleniti dolorum natus tempore dolores! Quaerat minus dolores fugiat optio tempore ut in debitis voluptates quisquam! Nobis modi optio natus."
+            lorem: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut deleniti dolorum natus tempore dolores! Quaerat minus dolores fugiat optio tempore ut in debitis voluptates quisquam! Nobis modi optio natus.",
+            batman: "batman"
         }
     },
 
