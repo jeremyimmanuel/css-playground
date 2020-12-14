@@ -32,11 +32,11 @@ export default {
     max-width: 300px;
     height: 215px;
     background: white;
-    margin: 30px 10px;
+    margin: 30px 30px;
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    // box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-in-out;
 }
 
@@ -51,7 +51,7 @@ export default {
     top: -60px;
     left: 20px;
     z-index: 1;
-    box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+    // box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
 }
 
 img {
